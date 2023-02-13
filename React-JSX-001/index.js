@@ -1,5 +1,5 @@
 
-const heading = React.createElement("h1",{style:{fontSize: "2.5rem",fontWeight: 'bold'}},"About US ")
+const heading = React.createElement("h1",{style:{fontSize: "2.5rem",fontWeight: '900'}},"About US ")
 
 
 const tag =React.createElement("p",{style:{fontSize: "1.2rem",}},"At Zappos.com,our purpose is simple: to live and deliver WOW ")
