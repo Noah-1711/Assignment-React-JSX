@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script defer src="./index.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script defer type="text/babel" src="./index.js"></script>
 
 </head>
 <style>
@@ -43,6 +44,11 @@
         color: white;
         font-family: "Roboto",sans-serif;
     }
+
+    .container h1{
+        font-size:4rem;
+         text-align:center;
+    }
     .logocont{
         width: 50%;
         height: 25%;
@@ -51,8 +57,21 @@
         justify-content: space-around;
         align-items: center;
         margin-bottom: 2rem;
+        color: #eae7e5;
+    }
+    .logocont p{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .logo {
+        font-size: 2rem;
+        text-align: center;
         color: #f9ddde;
     }
+    .logo p{
+        font-size: .8rem;
+    }
+     
   
 </style>
 
